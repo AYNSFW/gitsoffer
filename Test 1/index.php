@@ -4,11 +4,6 @@
     </head>
     <body>
         <?php
-        function caloeis($number){
-
-            return $numoeis;
-        }
-
         if(isset($_GET['num_pengulangan'])){
             $num_pengulangan = $_GET['num_pengulangan'];
             if($num_pengulangan == ""){
